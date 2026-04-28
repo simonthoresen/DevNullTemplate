@@ -15,8 +15,8 @@ This launches a local DevNull server pointed at this folder and opens
 the GUI client. Your `Games\`, `Plugins\`, and `Shaders\` show up in
 the relevant sub-menus under a `── Create ──` section.
 
-If DevNull isn't installed yet, `DevNullTest.ps1` runs the upstream
-installer first.
+DevNull must already be installed; `DevNullTest.ps1` exits with the
+installer one-liner if it can't find `~/DevNull/`.
 
 ## Push and share
 
