@@ -1,5 +1,5 @@
-# Print the raw-content URL of every .js file under games/, plugins/,
-# and shaders/. Reads the GitHub owner/repo from `git remote get-url
+# Print the raw-content URL of every .js file under Games/, Plugins/,
+# and Shaders/. Reads the GitHub owner/repo from `git remote get-url
 # origin` and the current branch from `git symbolic-ref --short HEAD`.
 
 $ErrorActionPreference = "Stop"
@@ -27,7 +27,7 @@ if (-not $branch) { $branch = "main" }
 $base = "https://raw.githubusercontent.com/$ownerRepo/$branch"
 
 $found = $false
-foreach ($kind in @("games", "plugins", "shaders")) {
+foreach ($kind in @("Games", "Plugins", "Shaders")) {
     $dir = Join-Path $PSScriptRoot $kind
     if (-not (Test-Path $dir)) { continue }
     $files = Get-ChildItem -Path $dir -Filter *.js -File -ErrorAction SilentlyContinue
@@ -39,5 +39,5 @@ foreach ($kind in @("games", "plugins", "shaders")) {
 }
 
 if (-not $found) {
-    Write-Host "No .js files found under games/, plugins/, shaders/." -ForegroundColor Yellow
+    Write-Host "No .js files found under Games/, Plugins/, Shaders/." -ForegroundColor Yellow
 }

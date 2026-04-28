@@ -1,22 +1,22 @@
-# my dev-null content
+# my DevNull content
 
 This repo was created from the
-[dev-null-starter](https://github.com/simonthoresen/dev-null-starter)
+[DevNullCreateTemplate](https://github.com/simonthoresen/DevNullCreateTemplate)
 template. It holds your authored games, plugins, and shaders for the
-[dev-null](https://github.com/simonthoresen/dev-null) framework.
+[DevNull](https://github.com/simonthoresen/DevNull) framework.
 
 ## Test locally
 
 ```powershell
-.\play.ps1
+.\DevNullTest.ps1
 ```
 
-This launches a local dev-null server pointed at this folder and opens
-the GUI client. Your `games\`, `plugins\`, and `shaders\` show up in
+This launches a local DevNull server pointed at this folder and opens
+the GUI client. Your `Games\`, `Plugins\`, and `Shaders\` show up in
 the relevant sub-menus under a `── Create ──` section.
 
-If dev-null isn't installed yet, `play.ps1` runs the upstream installer
-first.
+If DevNull isn't installed yet, `DevNullTest.ps1` runs the upstream
+installer first.
 
 ## Push and share
 
@@ -34,15 +34,15 @@ after each push. Otherwise:
 .\print-raw-urls.ps1
 ```
 
-Hand any of those URLs to the admin of a dev-null server. They paste it
+Hand any of those URLs to the admin of a DevNull server. They paste it
 into **File > Games > Add...** (or Plugins / Shaders > Add) and click
 Load. GitHub `blob/` URLs also work — they're auto-converted to raw.
 
 ## Examples
 
-Three working examples ship in `games\`, `plugins\`, and `shaders\`.
+Three working examples ship in `Games\`, `Plugins\`, and `Shaders\`.
 Open them and read the comments — that's the canonical reference.
 The full JavaScript surface is documented at
-[API-REFERENCE.md](https://github.com/simonthoresen/dev-null/blob/main/API-REFERENCE.md);
+[API-REFERENCE.md](https://github.com/simonthoresen/DevNull/blob/main/API-REFERENCE.md);
 the end-to-end author workflow at
-[AUTHORING.md](https://github.com/simonthoresen/dev-null/blob/main/AUTHORING.md).
+[AUTHORING.md](https://github.com/simonthoresen/DevNull/blob/main/AUTHORING.md).

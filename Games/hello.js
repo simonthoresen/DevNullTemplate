@@ -1,4 +1,4 @@
-// hello.js — a 30-second arena game that demonstrates the dev-null
+// hello.js — a 30-second arena game that demonstrates the DevNull
 // game lifecycle.
 //
 // What this exercises:
@@ -20,7 +20,7 @@
 //   * In renderAscii, draw a gradient background using cells.setChar.
 //   * Add a new key in update's "input" handler (e.g. "z" to teleport).
 //
-// Save → run .\play.ps1 in the repo root → reload via the Games menu.
+// Save → run .\DevNullTest.ps1 in the repo root → reload via the Games menu.
 
 var GAME_DURATION = 30;
 
