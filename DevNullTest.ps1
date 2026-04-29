@@ -1,4 +1,4 @@
-# DevNullCreateTemplate: local test loop
+# DevNullTemplate: local test loop
 #
 # Starts a server pointed at this folder + the GUI client. Your work
 # in Games/ Plugins/ Shaders/ is auto-discovered as the Create source

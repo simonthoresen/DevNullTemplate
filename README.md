@@ -1,7 +1,7 @@
 # my DevNull content
 
 This repo was created from the
-[DevNullCreateTemplate](https://github.com/simonthoresen/DevNullCreateTemplate)
+[DevNullTemplate](https://github.com/simonthoresen/DevNullTemplate)
 template. It holds your authored games, plugins, and shaders for the
 [DevNull](https://github.com/simonthoresen/DevNull) framework.
 
