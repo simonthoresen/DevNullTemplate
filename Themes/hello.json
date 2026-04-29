@@ -1,0 +1,15 @@
+{
+  "name": "Hello Theme",
+  "primary": {
+    "bg": "#0b0f1a",
+    "fg": "#e6edf3",
+    "accent": "#ff6b6b"
+  },
+  "secondary": {
+    "bg": "#0f1724"
+  },
+  "tertiary": {},
+  "warning": {},
+  "shadowBg": "#333333",
+  "shadowFg": "#555555"
+}
